@@ -61,3 +61,30 @@ print(a3.dtype)
 # astype
 a3.astype(np.int32)
 
+a1 = np.arange(12).reshape(3,4)
+a2 = np.arange(12,24).reshape(3,4)
+
+a2
+
+# scalar operations
+
+# arithmetic
+a1 ** 2
+
+# relational
+a2 == 15
+
+# vector operations
+# arithmetic
+a1 ** a2
+
+#Array Function 
+a1 = np.random.random((3,3))
+a1 = np.round(a1*100)
+a1
+
+# max/min/sum/prod
+# 0 -> col and 1 -> row
+
+
+np.prod(a1,axis=0)
